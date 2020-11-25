@@ -1,11 +1,12 @@
 <html>
-@extends('Layouts.head')
+
+<head>
+    @extends('Layouts.head')
+</head>
 
 <body>
-    @extends('Layouts.nav')
-    
-    @show
 
+    @include('Layouts.nav')
     <div class="container">
         @yield('content')
     </div>
